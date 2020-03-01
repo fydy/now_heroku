@@ -1,7 +1,6 @@
 {
-  "version": 1,
-  "rules": [
-    {"pathname": "/(.*)", "method":["GET", "POST"], "dest": "gravyun.herokuapp.com/$1"},
-    { "dest": "zhenge.me"}
+  "version": 2,
+  "routes": [
+  	{"src": "/(.*)","dest": "https://gravyun.herokuapp.com/$1"}
   ]
 }
